@@ -5992,40 +5992,41 @@ bMotion_abstract_register "oversleep_rush" {
 }
 
 bMotion_abstract_register "swear" {
-	"fuck"
-	"shit"
-	"bollocks"
-	"cunt"
-	"arse"
-	"damn"
-	"drat"
-	"bugger"
-	"rats"
+	"vittu"
+	"paska"
+	"perse"
+	"huora"
+	"perkele"
+	"saatana"
+	"hitto"
+	"rähmä"
+	"rotta"
+	"oispa kaljaa"
 }
 
 bMotion_abstract_register "fuckoff" {
-	"%={fuck:cunt:shit:sod} off%! you %VAR{PROM}"
+	"%=haista {vittu:pillu:paska:huilu}%! senkin %VAR{PROM}"
 }
 
 bMotion_abstract_register "medical_types" {
-	"terrible"
-	"bad"
-	"unusual"
-	"highly infectious"
-	"embarrassing"
-	"acute"
-	"advanced"
-	"asymptomatic"
-	"chronic"
-	"crippling"
-	"invasive"
-	"self-inflicted"
+	"vakava"
+	"vaikea"
+	"epätavallinen"
+	"erittäin tarttuva"
+	"kiusallinen"
+	"akuutti"
+	"kehittynyt"
+	"oireeton"
+	"krooninen"
+	"lamauttava"
+	"invasiivinen"
+	"itse aiheutettu"
 }
 
 bMotion_abstract_register "medical_suffix" {
-	"syndrome"
+	"oireyhtymä"
 	"itis"
-	"disorder"
+	"häiriö"
 	"opathy"
 	"ysis"
 	"osis"
