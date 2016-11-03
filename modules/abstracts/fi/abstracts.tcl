@@ -6071,35 +6071,35 @@ bMotion_abstract_register "current_status" {
 }
 
 bMotion_abstract_register "vehicle" {
-  "trike"
-  "bike"
-  "car"
-  "hang-glider"
-  "helicopter"
-  "skateboard"
-  "tandem"
+  "kolmipyörä"
+  "pyörä"
+  "auto"
+  "riippuliidin"
+  "helikopteri"
+  "skeittilauta"
+  "tandempyörä"
 }
 
 bMotion_abstract_register "wowcher" {
-  "Imagine yourself %VAR{wowcher_event} ... with %VAR{wowcher_with} ... and %VAR{wowcher_final}%|%BOT\[wowcher!\]"
-  "Imagine drooling over a %VAR{sillyThings:strip} ... and %VAR{wowcher_with}%|%BOT\[wowcher!\]"
-  "Imagine looking incredible ... on a kids' electric %VAR{vehicle}%|%BOT\[wowcher!\]"
-  "Imagine visiting beautiful %VAR{locations} ... with %VAR{wowcher_with} ... and %VAR{wowcher_final}%|%BOT\[wowcher!\]"
+  "Kuvittele itsesi %VAR{wowcher_event} ... %VAR{wowcher_with} kanssa ... ja %VAR{wowcher_final}%|%BOT\[wowcher!\]"
+  "Kuvittele, että kuolaat %VAR{sillyThings:strip} ... ja %VAR{wowcher_with}%|%BOT\[wowcher!\]"
+  "Kuvittele, että näytät upealta ... lasten sähköisellä %VAR{vehicle}%|%BOT\[wowcher!\]"
+  "Kuvittele, että vierailet kauniissa %VAR{locations} ... %VAR{wowcher_with} kanssa ... ja %VAR{wowcher_final}%|%BOT\[wowcher!\]"
 }
 
 bMotion_abstract_register "wowcher_event" {
-  "riding a %VAR{animals}"
+  "ratsastan %VAR{animals}"
 }
 
 bMotion_abstract_register "wowcher_with" {
-  "the most amazing hair"
-  "%NUMBER{10}kg of %VAR{foods}"
-  "dazzling white %VAR{bodypart:bothmixin,plural}"
+  "mahtavin tukka ikinä"
+  "%NUMBER{10}kg %VAR{foods}"
+  "häikäisevä valkoinen %VAR{bodypart:bothmixin,plural}"
 }
 
 bMotion_abstract_register "wowcher_final" {
-  "%NUMBER{100} toilet rolls"
-  "a large electronic steel %VAR{sillyThings:strip}"
+  "%NUMBER{100} vessapaperirullia"
+  "iso elektroninen teräs %VAR{sillyThings:strip}"
 }
 
 bMotion_abstract_add_filter "_all" "\{strip\}\}"
